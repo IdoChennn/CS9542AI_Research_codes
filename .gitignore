@@ -1,0 +1,7 @@
+# Ignore everything in the directory
+doc/*
+
+# But do not ignore this specific file
+!doc/Group Project Report.pdf
+!doc/Group Project Report.tex
+```

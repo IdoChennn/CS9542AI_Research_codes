@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+
+\usepackage{fullpage}
+\usepackage{fancybox}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+
+\newcommand{\MY}{\textsf{\sc Mystery}}
+\newcommand{\BUILD}{\textsf{\sc Build}}
+\newcommand{\MULT}{\textsf{\sc Mult}}
+\newcommand{\TS}{\textsf{\sc TwoSmallest}}
+\newcommand{\SL}{\textsf{\sc SmallestLargest}}
+
+\newcommand{\IE}{\mathbb{E}}
+
+\newcommand{\sm}{\mathord{\it smallest}}
+\newcommand{\ssm}{\mathord{\it secondsmallest}}
+\newcommand{\la}{\mathord{\it largest}}
+
+%%%%%%%%%%%%Separating rule above/below figures%%%%%%%%%%%%%%%%%%%%%
+\setlength{\textfloatsep}{5ex}
+\newcommand{\topfigrule}{\noindent\rule[-0.5cm]{\textwidth}{0.2mm}\vspace*{-6pt}\noindent}
+\newcommand{\botfigrule}{\noindent\rule[-0.5cm]{\textwidth}{0.2mm}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%% Capsule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\capsule}[2]{\vspace{0.5em}
+  \shadowbox{%
+    \begin{minipage}{.90\linewidth}%
+      \textbf{#1:}~#2%
+    \end{minipage}}
+  \vspace{0.5em} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcounter{ques}
+\newenvironment{question}{\stepcounter{ques}{\noindent\bf Question \arabic{ques}:}}{\vspace{5mm}}
+
+\begin{document} 
+
+\begin{center} \Large\bf
+An Evaluation of Federated learning in Covid-19 paitent risks prediction with Deep Learning Models
+\end{center} 
+
+
+
+\end{document} 
