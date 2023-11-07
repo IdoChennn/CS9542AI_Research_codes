@@ -1,48 +1,16 @@
 \documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
 
-\usepackage{fullpage}
-\usepackage{fancybox}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{graphicx}
+\title{An Evaluation of Federated Learning in COVID-19 Patient Risk Prediction with Deep Learning Models}
 
+\begin{document}
 
-\newcommand{\MY}{\textsf{\sc Mystery}}
-\newcommand{\BUILD}{\textsf{\sc Build}}
-\newcommand{\MULT}{\textsf{\sc Mult}}
-\newcommand{\TS}{\textsf{\sc TwoSmallest}}
-\newcommand{\SL}{\textsf{\sc SmallestLargest}}
+\maketitle
 
-\newcommand{\IE}{\mathbb{E}}
+\begin{abstract}
+  The COVID-19 pandemic has created a challenge for our healthcare system, we need to manage and protect patient data privacy. Federated Learning is a technique that the the training data can be kept at the data source without uploading to a central server. With this nature, we will evaluate some prediction models including CNN, FNN, Logistic regression, and PCA dimensionality reduction techniques in our project to determine the most effective way to predict patient risk. However, we also need to keep the potential risks/drawbacks of this framework in mind. For example, if a client receives a virus infection, the attack may upload the wrong model parameters causing the shared model to receive a negative impact as well. Plus, there might be some differences in accuracy when you compare it to the traditional centralized training approach. But as soon as we find the best model, techniques for our project, we believe our project can make effective predictions about COVID-19 patient risk while protecting data privacy with Federated Learning technique.
+\end{abstract}
 
-\newcommand{\sm}{\mathord{\it smallest}}
-\newcommand{\ssm}{\mathord{\it secondsmallest}}
-\newcommand{\la}{\mathord{\it largest}}
-
-%%%%%%%%%%%%Separating rule above/below figures%%%%%%%%%%%%%%%%%%%%%
-\setlength{\textfloatsep}{5ex}
-\newcommand{\topfigrule}{\noindent\rule[-0.5cm]{\textwidth}{0.2mm}\vspace*{-6pt}\noindent}
-\newcommand{\botfigrule}{\noindent\rule[-0.5cm]{\textwidth}{0.2mm}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%% Capsule %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\capsule}[2]{\vspace{0.5em}
-  \shadowbox{%
-    \begin{minipage}{.90\linewidth}%
-      \textbf{#1:}~#2%
-    \end{minipage}}
-  \vspace{0.5em} }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcounter{ques}
-\newenvironment{question}{\stepcounter{ques}{\noindent\bf Question \arabic{ques}:}}{\vspace{5mm}}
-
-\begin{document} 
-
-\begin{center} \Large\bf
-An Evaluation of Federated learning in Covid-19 paitent risks prediction with Deep Learning Models
-\end{center} 
-
-
-
-\end{document} 
+\end{document}
