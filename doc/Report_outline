@@ -1,0 +1,53 @@
+1. Abstract
+2. Introduction
+	Motivation
+	contribution
+		- FL learning
+		- Encryption on Model Updates
+	
+3. Related Work (https://arxiv.org/  https://ieeexplore.ieee.org/)
+	Learning Covid-related data and train model 2 referneces
+	Current methods addressing Covid_data privacy 1 references
+	FL in medical area 2 referneces
+	Fed_avg and Fed_prox 1 references
+
+4. Methods, system model
+
+Design of system model (ppt picture)
+Datasets: 1) description + cleaning. 2) Feature selection (Correlation check, feature scaling, categorical feature to individal features, PCA dimension reduction) 3) Classification (2 labels/4 labels (originaly 7 labels)) 
+
+System model
+	
+	Using TCP to Simulating FL	
+	
+	Comparing different DL models + loss function
+		FL use different DL model (NN, networks...)
+	
+	Comparing different FL algorithm + math function
+		Fed_avg and Fed_prox
+	
+	Clients (model updates) and server(aggregated model) encryption
+	
+Results
+	
+	Comparing different DL models
+	
+	Comparing different FL algorithm
+	
+	Clients (model updates) and server(aggregated model) encryption
+	
+Disscussion:
+	
+	FL not usble in ML (Decsision tree, random forest)
+	Why accuracy for 4 labels is low (Non-idd / data probelms (feature, clearning) )
+	FL models in differen sencario
+	Fed_prox in what secnario, Fed_avg in what scenario
+	Fed_prox + what DL models' Fed_avg + what DL models
+	
+Conclusion:
+	
+	Future work: Addressing Non-iid data issue / Covid FL based on Medical images
+	
+	Conclude everything above
+		
+	
